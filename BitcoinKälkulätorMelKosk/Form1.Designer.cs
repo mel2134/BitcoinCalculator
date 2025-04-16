@@ -114,7 +114,8 @@
             this.resultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
             this.resultLabel.Location = new System.Drawing.Point(12, 255);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(350, 73);
+            this.resultLabel.ReadOnly = true;
+            this.resultLabel.Size = new System.Drawing.Size(384, 73);
             this.resultLabel.TabIndex = 7;
             this.resultLabel.Text = "None";
             this.resultLabel.Visible = false;
